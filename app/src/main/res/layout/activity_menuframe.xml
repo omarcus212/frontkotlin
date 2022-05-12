@@ -36,22 +36,264 @@
             android:layout_width="265dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:background="#424657"
-           />
+            android:background="#424657" />
 
     </LinearLayout>
 
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="411dp"
-        android:layout_height="559dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="123dp"
-        android:orientation="vertical">
+        android:layout_width="414dp"
+        android:layout_height="383dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.371"
+
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:fontFamily="sans-serif-black"
+            android:paddingLeft="10dp"
+            android:text="New and trending"
+            android:textColor="#fff"
+            android:textSize="30dp" />
 
         <HorizontalScrollView
-            android:layout_width="298dp"
+            android:layout_width="338dp"
+            android:layout_height="286dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="300dp">
+
+
+                <LinearLayout
+                    android:layout_width="299dp"
+                    android:layout_height="290dp"
+                    android:layout_marginRight="30dp"
+                    android:background="#424657"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="158dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/ojogo" />
+
+                    <TextView
+                        android:layout_width="266dp"
+                        android:layout_height="68dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:paddingLeft="10px"
+                        android:text="Contra III: The Alien Wars"
+                        android:textColor="#fff"
+                        android:textDirection="firstStrongRtl"
+                        android:textSize="29dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="57dp"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="36dp"
+                            android:layout_height="33dp"
+                            android:src="@drawable/nintendo" />
+
+                        <ImageView
+                            android:layout_width="36dp"
+                            android:layout_height="33dp"
+                            android:src="@drawable/windowsclient" />
+
+                        <ImageView
+                            android:layout_width="36dp"
+                            android:layout_height="33dp"
+                            android:layout_marginRight="70dp"
+                            android:src="@drawable/android" />
+
+                        <Button
+                            android:layout_width="104dp"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="#FFAF29"
+                            android:text="Watch" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <!-- 2  -->
+
+
+                <LinearLayout
+                    android:layout_width="299dp"
+                    android:layout_height="290dp"
+                    android:layout_marginRight="30dp"
+                    android:background="#424657"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="158dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/ojogo" />
+
+                    <TextView
+                        android:layout_width="266dp"
+                        android:layout_height="68dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:paddingLeft="10px"
+                        android:text="Contra III: The Alien Wars"
+                        android:textColor="#fff"
+                        android:textDirection="firstStrongRtl"
+                        android:textSize="29dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="57dp"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="36dp"
+                            android:layout_height="33dp"
+                            android:src="@drawable/nintendo" />
+
+                        <ImageView
+                            android:layout_width="36dp"
+                            android:layout_height="33dp"
+                            android:src="@drawable/windowsclient" />
+
+                        <ImageView
+                            android:layout_width="36dp"
+                            android:layout_height="33dp"
+                            android:layout_marginRight="70dp"
+                            android:src="@drawable/android" />
+
+                        <Button
+                            android:layout_width="104dp"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="#FFAF29"
+                            android:text="Watch" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <!-- 3  -->
+
+                <LinearLayout
+                    android:layout_width="299dp"
+                    android:layout_height="290dp"
+                    android:layout_marginRight="30dp"
+                    android:background="#424657"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="158dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/ojogo" />
+
+                    <TextView
+                        android:layout_width="266dp"
+                        android:layout_height="68dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:paddingLeft="10px"
+                        android:text="Contra III: The Alien Wars"
+                        android:textColor="#fff"
+                        android:textDirection="firstStrongRtl"
+                        android:textSize="29dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="57dp"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="36dp"
+                            android:layout_height="33dp"
+                            android:src="@drawable/nintendo" />
+
+                        <ImageView
+                            android:layout_width="36dp"
+                            android:layout_height="33dp"
+                            android:src="@drawable/windowsclient" />
+
+                        <ImageView
+                            android:layout_width="36dp"
+                            android:layout_height="33dp"
+                            android:layout_marginRight="70dp"
+                            android:src="@drawable/android" />
+
+                        <Button
+                            android:layout_width="104dp"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="#FFAF29"
+                            android:text="Watch" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+                 <!-- ultimo de slide st5-->
+
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="194dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:fontFamily="sans-serif-black"
+            android:paddingLeft="10dp"
+            android:text="Best of the year"
+            android:textColor="#fff"
+            android:textSize="30dp" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp">
@@ -60,39 +302,113 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
-                    android:layout_width="340dp"
-                    android:layout_height="277dp"
-                    android:layout_marginRight="70dp"
-                    android:layout_marginBottom="5dp"
-                    android:background="@color/black" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp">
 
-                <ImageView
-                    android:layout_width="340dp"
-                    android:layout_height="277dp"
-                    android:layout_marginBottom="5dp"
-                    android:background="@color/teal_200" />
+                    <ImageView
+                        android:layout_width="103dp"
+                        android:layout_height="89dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/witcher" />
 
-                <ImageView
-                    android:layout_width="340dp"
-                    android:layout_height="277dp"
-                    android:layout_marginBottom="5dp"
-                    android:background="@color/purple_200" />
-
-                <ImageView
-                    android:layout_width="340dp"
-                    android:layout_height="277dp"
-                    android:layout_marginBottom="5dp"
-                    android:background="@color/purple_700" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingLeft="10dp"
+                        android:text="Best of the year"
+                        android:textColor="#fff"
+                        android:textSize="15dp" />
 
 
+                </LinearLayout>
+
+
+                <!--  4 -->
+
+
+                <!-- 5-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="103dp"
+                        android:layout_height="89dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/portal2" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:text="Portal 2"
+                        android:textColor="#fff"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <!-- 6-->
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="103dp"
+                        android:layout_height="89dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/godofwar" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingLeft="10dp"
+                        android:text="God of war"
+                        android:textColor="#fff"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="103dp"
+                        android:layout_height="89dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/callfoduty" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingLeft="10dp"
+                        android:text="call of duty"
+                        android:textColor="#fff"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <!--             ////////////////                 -->
             </LinearLayout>
-
-
         </HorizontalScrollView>
 
 
     </LinearLayout>
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

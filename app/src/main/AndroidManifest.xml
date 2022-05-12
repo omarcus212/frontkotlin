@@ -10,13 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Splahgame">
         <activity
-            android:name=".menuframe"
-            android:label="HOME"
+            android:name=".menuframe4"
             android:exported="false" />
         <activity
+            android:name=".menuframe3"
+            android:exported="false" />
+        <activity
+            android:name=".menuframe"
+            android:exported="false"
+            android:label="HOME" />
+        <activity
             android:name=".MainActivity"
-            android:label="HOME"
-            android:exported="true">
+            android:exported="true"
+            android:label="HOME">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
