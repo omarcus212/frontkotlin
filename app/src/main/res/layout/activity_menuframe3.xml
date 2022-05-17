@@ -23,6 +23,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
 
+
+
         <ImageView
             android:layout_width="79dp"
             android:layout_height="66dp"
@@ -57,19 +59,61 @@
         android:padding="20dp"
         >
 
-        <ImageView
+        <LinearLayout
             android:layout_width="174dp"
             android:layout_height="176dp"
             android:layout_marginRight="15dp"
-            android:src="@drawable/godofwar2" />
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/godofwar2"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="-70dp"
+                android:gravity="center"
+                android:text="God of war (2005)"
+                android:textColor="#ffff"
+                android:textDirection="firstStrong"
+                android:textSize="25dp"
+                android:fontFamily="sans-serif-medium"
+                />
+
+        </LinearLayout>
 
 
 
-        <ImageView
+        <LinearLayout
             android:layout_width="174dp"
             android:layout_height="176dp"
-            android:src="@drawable/godofwar3"
-            />
+            android:layout_marginRight="15dp"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/godofwar3"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="-70dp"
+                android:gravity="center"
+                android:text="God of war: Ascension"
+                android:textColor="#ffff"
+                android:textDirection="firstStrong"
+                android:textSize="25dp"
+                android:fontFamily="sans-serif-medium"
+                />
+
+        </LinearLayout>
 
 
     </LinearLayout>
@@ -96,20 +140,60 @@
         >
 
 
-        <ImageView
+        <LinearLayout
             android:layout_width="174dp"
             android:layout_height="176dp"
             android:layout_marginRight="15dp"
-            android:src="@drawable/godofwar1" />
+            android:orientation="vertical"
+            >
 
-        <
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/godofwar1"
+                />
 
-        <ImageView
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="-70dp"
+                android:gravity="center"
+                android:text="God of war: Ragnarok"
+                android:textColor="#FFFFFF"
+                android:textDirection="firstStrong"
+                android:textSize="25dp"
+                android:fontFamily="sans-serif-medium"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
             android:layout_width="174dp"
             android:layout_height="176dp"
-            android:src="@drawable/godofwar5"
-            />
+            android:layout_marginRight="15dp"
+            android:orientation="vertical"
+            >
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/godofwar4"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="-70dp"
+                android:gravity="center"
+                android:text="God of war:Ghost of Spart"
+                android:textColor="#ffff"
+                android:textDirection="firstStrong"
+                android:textSize="25dp"
+                android:fontFamily="sans-serif-medium"
+                />
+
+        </LinearLayout>
 
     </LinearLayout>
 
@@ -133,18 +217,62 @@
         android:gravity="center"
         android:padding="20dp"
         >
-
-        <ImageView
+        <LinearLayout
             android:layout_width="174dp"
             android:layout_height="176dp"
             android:layout_marginRight="15dp"
-            android:src="@drawable/godofwar16" />
+            android:orientation="vertical"
+            >
 
-        <ImageView
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/godofwar16"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="-70dp"
+                android:gravity="center"
+                android:text="God of war:Origins Collection"
+                android:textColor="#ffff"
+                android:textDirection="firstStrong"
+                android:textSize="25dp"
+                android:fontFamily="sans-serif-medium"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="174dp"
             android:layout_height="176dp"
-            android:src="@drawable/godofwar5"
-            />
+            android:layout_marginRight="15dp"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/godofwar4"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="-70dp"
+                android:gravity="center"
+                android:text="God of war:Ghost of Spart"
+                android:textColor="#ffff"
+                android:textDirection="firstStrong"
+                android:textSize="25dp"
+                android:fontFamily="sans-serif-medium"
+                android:shadowDx="-10"
+                android:shadowColor="#000"
+                android:shadowDy="60"
+                />
+
+        </LinearLayout>
 
     </LinearLayout>
 
